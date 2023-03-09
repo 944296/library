@@ -1,0 +1,21 @@
+.popular-img{
+  width: 150px;
+  height: 150px;
+  border-radius: 20%;
+  margin-left: 30px;
+}
+.third{
+  display: flex;
+}
+.name {
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 20px;
+}
+.idontknow{
+  font-size: 15px;
+  opacity: 0.33;
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 50%;
+}

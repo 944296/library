@@ -1,0 +1,41 @@
+@import "variables.css";
+@import "firstbox.css";
+@import "secondbox.css";
+@import "thirdbox.css";
+* {
+  box-sizing: border-box;
+}
+body{
+  width: 100vw;
+  height: 100vh;
+}
+#status-bar {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 10px;
+  background-color: var(--yellow);
+  padding: 50px 15px;
+}
+#status-bar_text {
+  font-size: 30px;
+}
+form div {
+  width: 500px;
+  height: 50px;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 25%;
+  translate: 40px -60px;
+  box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+}
+form input {
+  width: 350px;
+  border: none;
+  font-size: 20px;
+  opacity: 0.33;
+  margin: 10px 20px;
+}
+form i {
+  opacity: 0.33;
+  margin-left: 50px;
+}

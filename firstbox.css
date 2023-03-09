@@ -1,0 +1,64 @@
+.book {
+  font-size: 30px;
+  margin-left: 30px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.first {
+  display: flex;
+  justify-content: flex-start;
+}
+.book-img {
+  width: 150px;
+  height: 200px;
+  border-radius: 20%;
+  margin: 10px 30px;
+}
+.title {
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.author {
+  font-size: 15px;
+  font-weight: 300;
+  opacity: 0.33;
+  margin-bottom: 10px;
+}
+.stars {
+  color: var(--yellow);
+}
+.stars i:last-child {
+  color: rgba(0,0,0,0.3); 
+  opacity: 0.33;
+}
+.information {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.btn {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.bell{
+  width: 40px;
+  height: 40px;
+  background-color: var(--yellow);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buy{
+  width: 80px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  border-radius: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

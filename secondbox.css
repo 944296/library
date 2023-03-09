@@ -1,0 +1,20 @@
+.second {
+  display: flex;
+  flex-direction: column;
+}
+.top-img {
+  width: 100px;
+  height: 80px;
+  border-radius: 20%;
+}
+.book-various {
+  width: 500px;
+  margin: 10px 30px;
+  display: flex;
+  justify-content: space-evenly;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.second{
+  margin-right: 20px;
+}
